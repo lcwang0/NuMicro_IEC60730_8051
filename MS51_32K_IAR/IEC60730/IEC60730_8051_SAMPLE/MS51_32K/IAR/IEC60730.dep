@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>2868225990</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\sys.c</file>
+            <file>$PROJ_DIR$\..\main.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Startup\IAR\cstartup.s51</file>
+            <file>$PROJ_DIR$\..\system_init.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\uart.c</file>
+            <file>$PROJ_DIR$\..\..\..\IEC60730_8051_STL\IEC60730_SAFETY_TEST_LIB.c</file>
+            <file>$PROJ_DIR$\..\..\..\IEC60730_8051_STL\CLASSB_TESTLIB_INIT.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\putchar.c</file>
+            <file>$PROJ_DIR$\..\..\..\IEC60730_8051_STL\cpureg_test.c</file>
+            <file>$PROJ_DIR$\..\..\..\IEC60730_8051_STL\flash_test_runtime.c</file>
+            <file>$PROJ_DIR$\..\..\..\IEC60730_8051_STL\global_var.c</file>
+            <file>$PROJ_DIR$\..\..\..\IEC60730_8051_STL\interrupt_test_runtime.c</file>
+            <file>$PROJ_DIR$\..\..\..\IEC60730_8051_STL\adc_mux_test_runtime.c</file>
+            <file>$PROJ_DIR$\..\..\..\IEC60730_8051_STL\flash_test_startup.c</file>
+            <file>$PROJ_DIR$\..\..\..\IEC60730_8051_STL\pc_test_startup.c</file>
+            <file>$PROJ_DIR$\..\..\..\IEC60730_8051_STL\ram_march_test.c</file>
+            <file>$PROJ_DIR$\..\..\..\IEC60730_8051_STL\stack_test_runtime.c</file>
+            <file>$PROJ_DIR$\..\..\..\IEC60730_8051_STL\CLASSB_RUNTIME_TESTS.c</file>
+            <file>$PROJ_DIR$\..\..\..\IEC60730_8051_STL\CLASSB_STARTUP_TESTS.c</file>
+            <file>$PROJ_DIR$\..\checksum_table.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc_mux_test_runtime.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\sys.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\flash_test_startup.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\global_var.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\interrupt_test_runtime.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\pc_test_startup.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\CLASSB_RUNTIME_TESTS.r51</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\adc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\flash_test_runtime.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\CLASSB_STARTUP_TESTS.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\stack_test_runtime.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\checksum_table.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\cpureg_test.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\CLASSB_TESTLIB_INIT.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\IEC60730_SAFETY_TEST_LIB.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\putchar.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\ram_march_test.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\sys.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\CLASSB_TESTLIB_INIT.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\ram_march_test.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Exe\IEC60730.d51</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_init.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\stack_test_runtime.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\global_var.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\putchar.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\checksum_table.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\IEC60730_SAFETY_TEST_LIB.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\interrupt_test_runtime.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\CLASSB_RUNTIME_TESTS.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\cpureg_test.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\iap.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\cstartup.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\flash_test_runtime.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\flash_test_startup.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\pc_test_startup.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\pwm123.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc_mux_test_runtime.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_init.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\CLASSB_STARTUP_TESTS.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\delay.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\uart4.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\uart.h</file>
+            <file>$PROJ_DIR$\..\..\..\IEC60730_8051_STL\IEC60730_SAFETY_TEST_LIB.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\function_define_ms51_32k_iar.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\wdt.h</file>
+            <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\timer.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\eeprom.h</file>
+            <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\iap_sprom.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\pwm0.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\i2c.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\spi.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\bod.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\wkt.h</file>
+            <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\uart2.h</file>
+            <file>$PROJ_DIR$\..\NuMicro.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\sfr_macro_ms51_32k_iar.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\CLASSB_STARTUP_TESTS.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\CLASSB_TESTLIB_INIT.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\IEC60730.pbd</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\isr.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\uart3.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\pc_test_startup.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc_mux_test_runtime.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_init.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\clib\stdbool.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\ms51_32k_iar.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\cpureg_test.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\global_var.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\interrupt_test_runtime.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\ram_march_test.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\sys.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\common.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\IEC60730_SAFETY_TEST_LIB.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\eeprom_sprom.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\sys.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stack_test_runtime.pbi</file>
+            <file>$PROJ_DIR$\..\IEC60730_CONTROL_PARAM.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\flash_test_runtime.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\checksum_table.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\putchar.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\flash_test_startup.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\CLASSB_RUNTIME_TESTS.pbi</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\sys.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 97</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 22</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 87 98 86 69 91 100 101 107 28 54 59 65 68 72 82 79 67 77 63 71 75 73 74 76 70 80 64 78 92</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\main.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 109</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 21</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 53</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 73 69 77 80 72 79 71 76 78 104 82 67 63 75 74 70 64 81 92 107 91 28 98 100 54 86 59 101 65 87 68</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\Library\Startup\IAR\cstartup.s51</name>
+            <outputs>
+                <tool>
+                    <name>A8051</name>
+                    <file> 55</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\system_init.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 43</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 61</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 73 77 80 79 71 76 78 82 67 63 75 74 70 64 69 104 92 107 91 28 98 100 54 86 59 101 65 87 68 81 72</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\uart.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 102</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 37</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 47</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 80 77 73 82 79 71 76 78 67 63 75 74 70 64 69 92 107 91 28 98 100 54 86 59 101 65 87 68 72</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\IEC60730_8051_STL\IEC60730_SAFETY_TEST_LIB.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 99</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 35</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 49</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 67 70 75 82 63 74 64 66 79 77 71 73 76 80 78 104 92 107 91 28 98 100 54 86 59 101 65 87 68 72 69 81</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\IEC60730_8051_STL\CLASSB_TESTLIB_INIT.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 34</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 40</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 69 77 80 73 72 79 71 76 78 104 82 67 63 75 74 70 64 81 92 107 91 28 98 100 54 86 59 101 65 87 68</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\putchar.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 108</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 36</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 46</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77 80 73 69 79 71 76 78 82 67 63 75 74 70 64 72 107 91 28 98 100 54 86 59 101 65 87 68 92</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\IEC60730_8051_STL\cpureg_test.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 93</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 33</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 52</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 86 92 98 87 69 91 100 101 107 28 54 59 65 68 72 82 79 67 77 63 71 75 73 74 76 70 80 64 78 81</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\IEC60730_8051_STL\flash_test_runtime.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 105</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 29</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 56</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 59 107 100 68 28 54 65 66 92 91 98 86 101 87 104 82 79 67 77 63 71 75 73 74 76 70 80 64 78 72 69 81</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\IEC60730_8051_STL\global_var.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 94</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 24</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 45</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 69 77 80 73 72 79 71 76 78 104 82 67 63 75 74 70 64 81 92 107 91 28 98 100 54 86 59 101 65 87 68</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\IEC60730_8051_STL\interrupt_test_runtime.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 95</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 25</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 54 28 65 107 100 59 68 104 92 91 98 86 101 87 81 66 72 69 82 79 67 77 63 71 75 73 74 76 70 80 64 78</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\IEC60730_8051_STL\adc_mux_test_runtime.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 89</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 20</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 60</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 86 92 98 87 91 100 101 104 107 28 54 59 65 68 81 66 72 69 82 79 67 77 63 71 75 73 74 76 70 80 64 78</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\IEC60730_8051_STL\flash_test_startup.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 110</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 23</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 57</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 86 92 98 87 91 100 101 66 107 28 54 59 65 68 104 82 79 67 77 63 71 75 73 74 76 70 80 64 78 72 69 81</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\IEC60730_8051_STL\pc_test_startup.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 88</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 26</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 58</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 86 92 98 87 91 100 101 66 107 28 54 59 65 68 69 81 72 82 79 67 77 63 71 75 73 74 76 70 80 64 78</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\IEC60730_8051_STL\ram_march_test.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 96</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 38</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 41</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 100 91 101 69 92 98 86 87 104 107 28 54 59 65 68 81 66 82 79 67 77 63 71 75 73 74 76 70 80 64 78 72</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\IEC60730_8051_STL\stack_test_runtime.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 103</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 31</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 44</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 70 67 75 82 63 74 64 104 72 69 79 77 71 73 76 80 78 81 66 92 107 91 28 98 100 54 86 59 101 65 87 68</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\IEC60730_8051_STL\CLASSB_RUNTIME_TESTS.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 111</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 27</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 51</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 28 82 65 66 69 54 81 107 100 59 68 79 104 72 92 91 98 86 101 87 67 77 63 71 75 73 74 76 70 80 64 78</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\IEC60730_8051_STL\CLASSB_STARTUP_TESTS.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 83</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 30</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 62</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 75 67 70 82 63 74 64 104 72 69 79 77 71 73 76 80 78 81 66 92 107 91 28 98 100 54 86 59 101 65 87 68</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\checksum_table.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 106</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 32</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 48</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 65 28 54 107 100 59 68 92 91 98 86 101 87 69 104 82 79 67 77 63 71 75 73 74 76 70 80 64 78 81 72</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 42</file>
+                </tool>
+            </outputs>
+        </file>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
